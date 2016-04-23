@@ -19,10 +19,11 @@ $(document).ready(function() {
  =============================================== */
 $(window).load(function() {
     $('.main-flex-slider').flexslider({
-        slideshowSpeed: 5000,
+        slideshowSpeed: 500,
         directionNav: false,
         animation: "fade",
-        controlNav: false
+        controlNav: false,
+        itemWidth : 1
     });
 });
 
