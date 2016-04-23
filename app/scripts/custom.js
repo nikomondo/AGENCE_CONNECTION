@@ -19,11 +19,10 @@ $(document).ready(function() {
  =============================================== */
 $(window).load(function() {
     $('.main-flex-slider').flexslider({
-        slideshowSpeed: 500,
+        slideshowSpeed: 5000,
         directionNav: false,
         animation: "fade",
         controlNav: false,
-        itemWidth : 1
     });
 });
 
@@ -50,12 +49,12 @@ $(window).resize(close_toggle);
 /* ===================================================================
  TWEETIE -  TWITTER FEED PLUGIN THAT WORKS WITH NEW Twitter 1.1 API
  ==================================================================== */
-$('.tweet').twittie({
-    apiPath: 'twit-api/tweet.php',
-    dateFormat: '%b. %d, %Y',
-    template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}"{{screen_name}}',
-    count: 2
-});
+// $('.tweet').twittie({
+//     apiPath: 'twit-api/tweet.php',
+//     dateFormat: '%b. %d, %Y',
+//     template: '{{tweet}} <div class="date">{{date}}</div> <a href="{{url}}"{{screen_name}}',
+//     count: 2
+// });
 
 /***================================================== */
 $('.chart').each(function () {
