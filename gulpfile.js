@@ -115,7 +115,7 @@ gulp.task('serve', ['styles', 'connect'], function () {
     gulp.watch('bower.json', ['wiredep']);
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'misc']);
+gulp.task('build', [ 'html', 'images', 'fonts', 'misc']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
