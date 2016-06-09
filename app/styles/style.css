@@ -847,7 +847,7 @@ h2.sblide-btm-text {
 }
 
 .item-img-wrap:hover .item-img-overlay span {
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 .item-img-wrap:hover img {
