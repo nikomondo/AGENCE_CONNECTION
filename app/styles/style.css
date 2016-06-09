@@ -305,16 +305,17 @@ h2.sblide-btm-text {
     text-align: center;
     overflow: hidden;
     margin-bottom: 10px;
+       background-position: center 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-image: url(../img/tasse-jaune.png);
 }
 
 .imgslider {
    opacity: 1;
     height: 60vh;
     width: 100%;
-    background-position: center 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -326,20 +327,6 @@ h2.sblide-btm-text {
     align-items: center;
 }
 
-.img1 {
-    background-image: url(../img/diapo1.png);
-}
-
-.img2 {
-    background-image: url(../img/diapo2.png);
-}
-
-.img3 {
-    background-image: url(../img/diapo3.png);
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
 
 .home-top-slide-text {
     display: inline-block;
@@ -589,9 +576,9 @@ h2.sblide-btm-text {
 }
 
 .team-col img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
     -webkit-border-radius: 50%;
     position: relative;
     top: 0px;
@@ -892,7 +879,7 @@ h2.sblide-btm-text {
     border-bottom: 1px solid #efefef;
 }
 
-.plan-price h2 span {
+.plan-price h3 span {
     font-size: 12px;
     font-weight: 300;
     vertical-align: middle;
@@ -900,8 +887,8 @@ h2.sblide-btm-text {
     margin-right: 5px;
 }
 
-.plan-price h2 {
-    font-size: 45px;
+.plan-price h3 {
+    font-size: 30px;
     color: #333;
     margin: 0;
 }
