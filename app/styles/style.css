@@ -571,8 +571,9 @@ h2.sblide-btm-text {
 /*team*/
 
 .team-col {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 25px;
+    font-size: 1.5rem;
 }
 
 .team-col img {
@@ -602,7 +603,6 @@ h2.sblide-btm-text {
     top: -5px;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.5);
 }
-
 
 /**testimonials**/
 
