@@ -128,8 +128,7 @@ label {
     /* Chrome10-25,Safari5.1-6 */
     -o-border-image: -o-linear-gradient( to left, #b3bead 0%, #dfe5d7 60%, #fcfff4 100% 1);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
--webkit-border-image: 
-    -webkit-linear-gradient(left, #e2e2e2,#FFF)  100% 1;
+    -webkit-border-image: -webkit-linear-gradient(left, #e2e2e2, #FFF) 100% 1;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -223,6 +222,7 @@ label {
     -o-transform: skew(-38deg);
     tranform: skew(-38deg);
 }
+
 #trapeze>img {
     width: 56px;
     height: 148px;
@@ -305,15 +305,15 @@ h2.sblide-btm-text {
     text-align: center;
     overflow: hidden;
     margin-bottom: 10px;
-       background-position: center 0%;
+    background-position: center 0%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-image: url(../img/tasse-jaune.png);
 }
 
 .imgslider {
-   opacity: 1;
+    opacity: 1;
     height: 60vh;
     width: 100%;
     display: -webkit-flex;
@@ -326,7 +326,6 @@ h2.sblide-btm-text {
     -ms-flex-align: center;
     align-items: center;
 }
-
 
 .home-top-slide-text {
     display: inline-block;
@@ -356,23 +355,34 @@ h2.sblide-btm-text {
 / .home-link-btn {
     margin-top: 30px;
 }
-@media(max-width: 950px){
+
+@media(max-width: 950px) {
     #trapeze {
         display: none;
     }
     #logo {
-        margin-top : 20px;
-        height: 80px;
+        margin-top: 20px;
+        height : 80px;
     }
     #ombre {
         display: none;
     }
+    #block-logo {
+        min-width: 100px;
+    }
 }
-@media(max-width:767px) {
+
+@media(max-width:750px) {
     .main-flex-slider h1 {
         font-size: 4em;
     }
-
+    #logo {
+        margin : 20px;
+        height: 80px;
+    }
+     .navbar-brand{
+        width: 300px;
+    }
 }
 
 @media(max-width:420px) {
@@ -386,6 +396,7 @@ h2.sblide-btm-text {
     .home-link-btn {
         margin-top: 10px;
     }
+   
 }
 
 
@@ -615,6 +626,7 @@ h2.sblide-btm-text {
     top: -5px;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.5);
 }
+
 
 /**testimonials**/
 
